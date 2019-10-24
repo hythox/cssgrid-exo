@@ -7,14 +7,14 @@ https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout/Les_concepts_de_ba
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 100px;
-  }
-    ??
-}
+    }
 
 /* positionnement du titre pour occuper toute une ligne */
 
-#titre{
-    grid-row: ?? ;
+#titre {
+    grid-row: 1;
+    grid-column: 1/4;
+    text-align: center;
 }
 
 /* positionnement des tuiles en 3x3 */
